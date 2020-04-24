@@ -7,7 +7,7 @@ use Fideloper\Proxy\TrustProxies as Middleware;
 
 class TrustProxies extends Middleware
 {
-    /**
+    /**protected $proxies = '**';
      * The trusted proxies for this application.
      *
      * @var array
